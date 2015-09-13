@@ -35,13 +35,23 @@
 		
 		<!-- Change this position to the css -->
 		<style>
+			.subBlog {
+				    -webkit-column-count: 2;
+					-moz-column-count: 2;
+				column-count: 2;
+				    -webkit-column-rule-style:
+					-moz-column-rule-style: solid;
+				column-rule-style: solid;
+				word-wrap:break-word;
+			}
 			.subBlog h4 {
+				line-height:2px;
 				font-size:32px;
+				text-align:left;
 			}
 			.subBlog p {
 				font-size:20px;
 				text-align:left;
-				width:60%;
 			}
 		</style>
 	</head>
@@ -74,16 +84,29 @@
 				<section>
 					<!-- INTRO -->
 					<section>
-					<h3>Known TCP's</h3>
-					<p>This section is about known TCP's on the internet.<br>
-					I am about to pick up few really most useful<br> TCP's and tell you some.<br><hr>Get Down!</p>
+					<h3>Internet Protocol Suite</h3>
+					<p>This section is about known internet protocols on the internet.<br>
+					I am about to pick up few really most useful<br> internet protocols and tell you some.<br><hr>Get Down!</p>
 					</section>
 					<!-- SUB -->
 					<section class="subBlog">
 						<h4>HTTP</h4>
 						<p>
-							HTTP - Hyper Text Transfer Protocol is meant exactly for<br>
+							HTTP - Hyper Text Transfer Protocol is meant exactly for
 							different kind of documents like HTML to transfer this data to other media equipment, secure and fast as possible.
+						</p>
+					</section>
+					<section class="subBlog">
+						<h4>Websockets</h4>
+						<p>
+							Websockets are really really useful for real-time communication, allows you to communicate with client and client with server simultaneously.
+						</p>
+					</section>
+					<section class="subBlog">
+						<h4>TCP</h4>
+						<p>
+							TCP provides reliable bidirectional, ordered and error-checked stream of octets between connected users. 
+							TCP uses port numbers from 0 to 65535 for identifying application endpoints. This also features input output reading and writing, also known as sockets.
 						</p>
 					</section>
 				</section><!-- END OF TCP BLOG -->
